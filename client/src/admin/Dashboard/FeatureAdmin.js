@@ -98,7 +98,7 @@ export default class FeatureAdmin extends React.Component {
     const body = new FormData();
     body.append('myImage', file);
 
-    const response = await fetch("http://localhost:5000/upload", {
+    const response = await fetch("http://adb58c6f.ngrok.io/upload", {
       method: 'POST',
       body: body
     });
