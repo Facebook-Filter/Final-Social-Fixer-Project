@@ -93,7 +93,6 @@ export default class FeatureAdmin extends React.Component {
 
   onSubmit = async (e) => {
     e.preventDefault();
-    debugger;
     const file = e.target.myImage.files[0];
     console.log(file);
     const body = new FormData();

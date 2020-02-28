@@ -48,8 +48,8 @@ class Features extends Component {
                   " Social Fixer has a wide range of features to make your
                   Facebook experience better "
                 </p>
-                <br />
-                <p>Here are some of the popular ones:</p>
+               
+                <p className="test">Here are some of the popular ones:</p>
               </div>
             </div>
 
