@@ -1,0 +1,44 @@
+
+
+  #text-name{
+    width: 300px;
+  }
+
+  #text-email{
+    width: 300px;
+  }
+
+  .donate_textarea{
+    position: relative;
+    resize:none;
+    width:400px;
+    height:120px;
+  }
+
+  .donate-buttonn{
+    padding-left: 50px;
+  }
+
+  #give-btn{
+    width: 310px;
+    height: 30px;
+    
+    color: white;
+    background-color:rgb(30, 139, 30)
+  }
+
+  .fb-donation{
+    width:30em;
+    height: 580px;
+    opacity: 70%;
+    border: 0px;
+  }
+
+  .validation-fbPhoto{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+
+ 

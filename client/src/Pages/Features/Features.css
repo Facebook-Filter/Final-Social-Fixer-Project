@@ -1,0 +1,52 @@
+.features-intro {
+  text-align: center;
+  margin: 5%;
+}
+
+#features-h1 {
+  font-size: 70px;
+  color: #385aca;
+}
+
+#features-defn {
+  line-height: 10%;
+  margin-top: 5%;
+  font-size: large;
+  font-style: italic;
+}
+.features_container {
+  display: grid;
+  grid-row-gap: 70px;
+}
+.grid-feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "content image";
+  gap: 25px;
+}
+.grid-feature:nth-child(even) {
+  grid-template-areas: "image content";
+}
+.grid-feature:nth-child(odd) {
+  grid-template-areas: "content image";
+}
+.grid-feature .content {
+  grid-area: content;
+  padding-left: 20px;
+}
+
+.grid-feature .featured_image {
+  grid-area: image;
+}
+.grid-feature .f1-h2 {
+  color: red;
+}
+.featured_image img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-feature .f1-pic-size {
+  width: 35em;
+  height: 15em;
+}
